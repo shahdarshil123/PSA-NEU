@@ -1,0 +1,76 @@
+Testing ExamTest.py Starts
+----------- Test case  0  Size of n = 3
+   0   1   2
+   1   2   2
+Time complexity of algo is O(1), space complexity of algo is O(n)
+   0         1
+   1         2
+Weigh 1 n= 1 [ 1 ] < [ 2 ]
+   0         2
+   1         2
+Weigh 2 n= 1 [ 1 ] < [ 2 ]
+n = 3
+you took  2 weighing
+Fake coin is: Lighter
+----------- Test case  1  Size of n = 3
+   0   1   2
+   3   2   3
+Time complexity of algo is O(1), space complexity of algo is O(n)
+   0         1
+   3         2
+Weigh 1 n= 3 [ 3 ] > [ 2 ]
+   0         2
+   3         3
+Weigh 2 n= 3 [ 3 ] = [ 3 ]
+n = 3
+you took  2 weighing
+Fake coin is: Lighter
+----------- Test case  2  Size of n = 4
+   0   1   2   3
+   1   2   1   1
+Time complexity of algo is O(1), space complexity of algo is O(n)
+   0         1
+   1         2
+Weigh 1 n= 1 [ 1 ] < [ 2 ]
+   0         2
+   1         1
+Weigh 2 n= 1 [ 1 ] = [ 1 ]
+n = 4
+you took  2 weighing
+Fake coin is: Heavier
+----------- Test case  3  Size of n = 8
+   0   1   2   3   4   5   6   7
+   5   5   5   4   5   5   5   5
+Time complexity of algo is O(1), space complexity of algo is O(n)
+   0   1         2   3
+   5   5         5   4
+Weigh 1 n= 10 [ 10 ] > [ 9 ]
+   0   1         4   5
+   5   5         5   5
+Weigh 2 n= 10 [ 10 ] = [ 10 ]
+n = 8
+you took  2 weighing
+Fake coin is: Lighter
+----------- Test case  4  Size of n = 9
+   0   1   2   3   4   5   6   7   8
+   1   1   1   1   1   1   1   2   1
+Time complexity of algo is O(1), space complexity of algo is O(n)
+   0   1   2         3   4   5
+   1   1   1         1   1   1
+Weigh 1 n= 3 [ 3 ] = [ 3 ]
+   0   1   2         6   7   8
+   1   1   1         1   2   1
+Weigh 2 n= 3 [ 3 ] < [ 4 ]
+n = 9
+you took  2 weighing
+Fake coin is: Heavier
+All basic tests passed
+You got 50 marks
+I will see how you can pass my Hidden tests, which I will post after exam
+Take 85 marks test and run away. I don't think you can pass my hidden test
+Hidden test WILL BE GIVEN AFTER EXAM
+All tests passed. You are a genius
+If you liked this problem send me a box of chocolates
+FILL Complexity of my algorithm. Will lose  10 marks if you don't fill: O(1)
+Space Complexity: O(n)
+Testing ExamTest.py ENDS
