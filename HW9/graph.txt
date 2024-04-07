@@ -1,0 +1,52 @@
+3.9.5 (tags/v3.9.5:0a7dcbd, May  3 2021, 17:27:52) [MSC v.1928 64 bit (AMD64)]
+Building graph C:\Users\Darshil Shah\OneDrive - Northeastern University\Desktop\PSA-NEU\HW9\graphdata\u1.txt
+DFS traversal is in
+C:\Users\Darshil Shah\OneDrive - Northeastern University\Desktop\PSA-NEU\HW9\dot\u1dfs.dot
+DFS ORDER:  0 1 
+NOLOOP
+Work Done 4
+Building graph C:\Users\Darshil Shah\OneDrive - Northeastern University\Desktop\PSA-NEU\HW9\graphdata\1.txt
+DFS traversal is in
+C:\Users\Darshil Shah\OneDrive - Northeastern University\Desktop\PSA-NEU\HW9\dot\1dfs.dot
+DFS ORDER:  1 3 5 4 2 
+NOLOOP
+Work Done 13
+Building graph C:\Users\Darshil Shah\OneDrive - Northeastern University\Desktop\PSA-NEU\HW9\graphdata\udf1.txt
+NOT READ LINE 
+
+DFS traversal is in
+C:\Users\Darshil Shah\OneDrive - Northeastern University\Desktop\PSA-NEU\HW9\dot\udf1dfs.dot
+DFS ORDER:  0 1 3 5 4 2 
+LOOP
+Work Done 13
+Building graph C:\Users\Darshil Shah\OneDrive - Northeastern University\Desktop\PSA-NEU\HW9\graphdata\2.txt
+DFS traversal is in
+C:\Users\Darshil Shah\OneDrive - Northeastern University\Desktop\PSA-NEU\HW9\dot\2dfs.dot
+DFS ORDER:  1 3 2 4 5 
+NOLOOP
+Work Done 10
+DFS ASSERT PASSED
+Building graph C:\Users\Darshil Shah\OneDrive - Northeastern University\Desktop\PSA-NEU\HW9\graphdata\3.txt
+DFS traversal is in
+C:\Users\Darshil Shah\OneDrive - Northeastern University\Desktop\PSA-NEU\HW9\dot\3dfs.dot
+DFS ORDER:  0 1 3 4 2 
+LOOP
+Work Done 11
+Building graph C:\Users\Darshil Shah\OneDrive - Northeastern University\Desktop\PSA-NEU\HW9\graphdata\cat.txt
+NOT READ LINE 
+
+DFS traversal is in
+C:\Users\Darshil Shah\OneDrive - Northeastern University\Desktop\PSA-NEU\HW9\dot\catdfs.dot
+DFS ORDER:  Cab Cat Mat Car Bar Bat 
+NOLOOP
+Work Done 13
+DFS ASSERT PASSED
+Building graph C:\Users\Darshil Shah\OneDrive - Northeastern University\Desktop\PSA-NEU\HW9\graphdata\7.txt
+NOT READ LINE  
+DFS traversal is in
+C:\Users\Darshil Shah\OneDrive - Northeastern University\Desktop\PSA-NEU\HW9\dot\7dfs.dot
+DFS ORDER:  0 3 1 2 4 5 6 
+NOLOOP
+Work Done 19
+DFS ASSERT PASSED
+DFS Passed

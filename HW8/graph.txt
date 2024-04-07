@@ -1,0 +1,164 @@
+3.9.5 (tags/v3.9.5:0a7dcbd, May  3 2021, 17:27:52) [MSC v.1928 64 bit (AMD64)]
+------------ 13 ------------ 
+UNDIRECTED GRAPH
+Num Vertices = 7
+Num Edges    = 12
+1 Fanouts: 2,3,4
+2 Fanouts: 1,5,4
+3 Fanouts: 1,6,4
+4 Fanouts: 1,2,3,5,7,6
+5 Fanouts: 2,4,7
+6 Fanouts: 3,7,4
+7 Fanouts: 4,5,6
+C:\Users\Darshil Shah\OneDrive - Northeastern University\Desktop\PSA-NEU\HW8\dot\13.dot
+## Darshil Rakesh Shah ####
+digraph g {
+edge [dir = none, color = red]
+1 -> 2 
+1 -> 3 
+1 -> 4 
+2 -> 5 
+2 -> 4 
+3 -> 6 
+3 -> 4 
+4 -> 5 
+4 -> 7 
+4 -> 6 
+5 -> 7 
+6 -> 7 
+}
+
+------------ 14 ------------ 
+WEIGHTED_UNDIRECTED GRAPH
+Num Vertices = 6
+Num Edges    = 10
+1 Fanouts: 2,3,4
+2 Fanouts: 1,3,5
+3 Fanouts: 1,2,4,5,6
+4 Fanouts: 1,3,6
+5 Fanouts: 2,3,6
+6 Fanouts: 3,4,5
+C:\Users\Darshil Shah\OneDrive - Northeastern University\Desktop\PSA-NEU\HW8\dot\14.dot
+## Darshil Rakesh Shah ####
+digraph g {
+edge [dir = none, color = red]
+1 -> 2 [label = 6.2]
+1 -> 3 [label = 1.2]
+1 -> 4 [label = 5.0]
+2 -> 3 [label = 5.2]
+2 -> 5 [label = 3.2]
+3 -> 4 [label = 5.0]
+3 -> 5 [label = 4.0]
+3 -> 6 [label = 4.0]
+4 -> 6 [label = 2.0]
+5 -> 6 [label = 6.0]
+}
+
+------------ 15 ------------ 
+DIRECTED GRAPH
+Num Vertices = 6
+Num Edges    = 6
+A Fanouts: B
+A Fanins: NONE
+B Fanouts: C
+B Fanins: A,D
+E Fanouts: F,D
+E Fanins: C
+F Fanouts: NONE
+F Fanins: E
+D Fanouts: B
+D Fanins: E
+C Fanouts: E
+C Fanins: B
+C:\Users\Darshil Shah\OneDrive - Northeastern University\Desktop\PSA-NEU\HW8\dot\15.dot
+## Darshil Rakesh Shah ####
+digraph g {
+edge [color=red]
+A -> B 
+B -> C 
+E -> F 
+E -> D 
+D -> B 
+C -> E 
+}
+
+------------ 16 ------------ 
+WEIGHTED_DIRECTED GRAPH
+Num Vertices = 5
+Num Edges    = 6
+A Fanouts: C,D
+A Fanins: B,E
+C Fanouts: B,D
+C Fanins: A
+D Fanouts: NONE
+D Fanins: A,C
+B Fanouts: A
+B Fanins: C
+E Fanouts: A
+E Fanins: NONE
+C:\Users\Darshil Shah\OneDrive - Northeastern University\Desktop\PSA-NEU\HW8\dot\16.dot
+## Darshil Rakesh Shah ####
+digraph g {
+edge [color=red]
+A -> C [label = 12.8]
+A -> D [label = 60.0]
+C -> B [label = 20.0]
+C -> D [label = 32.9]
+B -> A [label = 10.0]
+E -> A [label = 7.0]
+}
+
+NOT READ LINE 
+
+------------ cat ------------ 
+DIRECTED GRAPH
+Num Vertices = 6
+Num Edges    = 7
+Bar Fanouts: Bat
+Bar Fanins: Car
+Bat Fanouts: NONE
+Bat Fanins: Bar,Mat,Cat
+Cab Fanouts: Car,Cat
+Cab Fanins: NONE
+Car Fanouts: Bar
+Car Fanins: Cab
+Mat Fanouts: Bat
+Mat Fanins: Cat
+Cat Fanouts: Mat,Bat
+Cat Fanins: Cab
+C:\Users\Darshil Shah\OneDrive - Northeastern University\Desktop\PSA-NEU\HW8\dot\cat.dot
+## Darshil Rakesh Shah ####
+digraph g {
+edge [color=red]
+Bar -> Bat 
+Cab -> Car 
+Cab -> Cat 
+Car -> Bar 
+Mat -> Bat 
+Cat -> Mat 
+Cat -> Bat 
+}
+
+------------ loopparallel ------------ 
+WEIGHTED_DIRECTED GRAPH
+Num Vertices = 4
+Num Edges    = 4
+s Fanouts: 0
+s Fanins: NONE
+0 Fanouts: 1
+0 Fanins: s
+1 Fanouts: 1,t
+1 Fanins: 0,1
+t Fanouts: NONE
+t Fanins: 1
+C:\Users\Darshil Shah\OneDrive - Northeastern University\Desktop\PSA-NEU\HW8\dot\loopparallel.dot
+## Darshil Rakesh Shah ####
+digraph g {
+edge [color=red]
+s -> 0 [label = 1.0]
+0 -> 1 [label = 5.0]
+1 -> 1 [label = 3.0]
+1 -> t [label = 1.0]
+}
+
+test_graph_representation Passed

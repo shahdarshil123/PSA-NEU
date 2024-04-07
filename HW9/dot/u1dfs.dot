@@ -1,0 +1,8 @@
+## Darshil Rakesh Shah ####
+digraph g {
+label = "[0 1 ] NO LOOP"
+0[label = <0<BR /><FONT POINT-SIZE="10">0/3</FONT>>]
+1[label = <1<BR /><FONT POINT-SIZE="10">1/2</FONT>>]
+edge [dir = none, color = black]
+0->1
+}

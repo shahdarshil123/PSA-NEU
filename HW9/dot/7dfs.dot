@@ -1,0 +1,24 @@
+## Darshil Rakesh Shah ####
+digraph g {
+label = "[0 3 1 2 4 5 6 ] NO LOOP"
+0[label = <0<BR /><FONT POINT-SIZE="10">0/13</FONT>>]
+2[label = <2<BR /><FONT POINT-SIZE="10">1/8</FONT>>]
+3[label = <3<BR /><FONT POINT-SIZE="10">9/12</FONT>>]
+1[label = <1<BR /><FONT POINT-SIZE="10">10/11</FONT>>]
+6[label = <6<BR /><FONT POINT-SIZE="10">3/4</FONT>>]
+4[label = <4<BR /><FONT POINT-SIZE="10">6/7</FONT>>]
+5[label = <5<BR /><FONT POINT-SIZE="10">2/5</FONT>>]
+edge [color=red]
+0->2
+0->3
+0->1
+2->5
+2->4
+3->2
+3->4
+3->1
+1->6
+1->4
+4->6
+5->6
+}

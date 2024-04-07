@@ -1,0 +1,18 @@
+## Darshil Rakesh Shah ####
+digraph g {
+label = "[Cab Cat Mat Car Bar Bat ] NO LOOP"
+Bar[label = <Bar<BR /><FONT POINT-SIZE="10">0/3</FONT>>]
+Bat[label = <Bat<BR /><FONT POINT-SIZE="10">1/2</FONT>>]
+Cab[label = <Cab<BR /><FONT POINT-SIZE="10">4/11</FONT>>]
+Car[label = <Car<BR /><FONT POINT-SIZE="10">5/6</FONT>>]
+Mat[label = <Mat<BR /><FONT POINT-SIZE="10">8/9</FONT>>]
+Cat[label = <Cat<BR /><FONT POINT-SIZE="10">7/10</FONT>>]
+edge [color=red]
+Bar->Bat
+Cab->Car
+Cab->Cat
+Car->Bar
+Mat->Bat
+Cat->Mat
+Cat->Bat
+}
