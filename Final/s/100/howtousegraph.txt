@@ -1,0 +1,73 @@
+
+How to get number of nodes
+n = self._g.get_numV()
+---------------
+How to get number of edges
+n = self._g.get_numE()
+-----------
+How to get name of a node
+name = node.get_name()
+-----------------------------
+Get all nodes of a graph
+all_nodes = self._g.list_of_nodes()
+---------------------------------------
+How to iterate on each node of a graph
+all_nodes = self._g.list_of_nodes()
+for anode in all_nodes:
+	c = math.inf
+	if (anode.get_name() == self._start_city):
+ 	   # The best way to visit _start_city is from _start_city
+           c = 0       
+
+-----------------------------------
+
+How to get fanout of a node?
+You have node n. Where can I go from n?
+	
+fanout_nodes = n.fanout_of_a_node()
+for f in fanout_nodes:
+     name = f.get_name()
+
+--------------------
+You have node n
+You have node f
+
+How to get cost from city n to city f?
+
+cost_from_n_f = n.node_get_fanout_node_weight(f)
+
+See this code
+You have a node n
+fanout_nodes = n.fanout_of_a_node()
+for f in fanout_nodes:
+    cost_from_n_f = n.node_get_fanout_node_weight(f)
+
+-----------  pattern -----
+    def dump(self, name):
+        print("------------", name, "------------ ")
+        print(self.get_graph_type())
+        print("Num Vertices =", self.get_numV())
+        print("Num Edges    =", self._numE)
+        numedge = 0
+        all_nodes = self.list_of_nodes()
+        for node in all_nodes:
+            n = node.get_name()
+            print(n, "Fanouts: ", end="")
+            f = node.num_fan_outs()
+            if f == 0:
+                print("NONE")
+            else:
+                fanout_nodes = node.fanout_of_a_node()
+                j = 0
+                for fnode in fanout_nodes:
+                    numedge = numedge + 1
+                    d = fnode.get_name()
+                    if j < f - 1:
+                        print(d, ",", sep="", end="")
+                    else:
+                        print(d)
+                    j = j + 1
+
+
+
+
